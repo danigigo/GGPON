@@ -31,7 +31,7 @@ st.markdown("""<p style='text-align: justify;'>Una Gigabit Passive Optical Netwo
 # :red[""]
 
 
-image = Image.open('hhhh.JPG')
+image = Image.open('hhhh.jpg')
 
 st.image(image)
 
