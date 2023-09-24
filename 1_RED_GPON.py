@@ -60,6 +60,6 @@ for caracteristica in caracteristicas:
     else:
         st.markdown(caracteristica)
 
-image2 = Image.open('ffd.JPG')
+image2 = Image.open('ffd.jpg')
 
 st.image(image2)
