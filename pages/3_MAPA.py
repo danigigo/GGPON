@@ -126,7 +126,7 @@ for location in locations:
     ).add_to(m)
 
 # Agregar hexágono para la celda de cobertura de red óptica
-folium.RegularPolygonMarker(
+folium.Circle(
     location=[7.136844296154591, -73.12832180456587],  # Ubicación de la sede Bucaramanga
     fill_color='red',
     fill_opacity=0.5,
@@ -138,7 +138,7 @@ folium.RegularPolygonMarker(
 
 
 
-folium.RegularPolygonMarker(
+folium.Circle(
     location=[7.066195857926469, -73.09492035409652],  # Ubicación de la sede Bucaramanga
     fill_color='red',
     fill_opacity=0.5,
@@ -148,7 +148,7 @@ folium.RegularPolygonMarker(
     tooltip='Celda Cobertura Sede Floridablanca'
 
 ).add_to(m)
-folium.RegularPolygonMarker(
+folium.Circle(
     location=[7.023262911646313, -73.05971245467781],  # Ubicación de la sede Bucaramanga
     fill_color='red',
     fill_opacity=0.5,
@@ -157,7 +157,7 @@ folium.RegularPolygonMarker(
     
     tooltip='Celda Cobertura Sede Piedecuesta'
 ).add_to(m)
-folium.RegularPolygonMarker(
+folium.Circle(
     location=[7.0084293135346725, -73.05136176052113],  # Ubicación de la sede Bucaramanga
     fill_color='red',
     fill_opacity=0.5,
