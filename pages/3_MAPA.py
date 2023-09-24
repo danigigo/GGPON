@@ -131,7 +131,7 @@ folium.Circle(
     fill_color='red',
     fill_opacity=0.5,
     number_of_sides=6,  # Hexágono
-    radius=70,  # Radio del hexágono en metros
+    radius=50,  # Radio del hexágono en metros
     
     tooltip='Celda Cobertura Sede Bucaramanga'
 ).add_to(m)
@@ -143,7 +143,7 @@ folium.Circle(
     fill_color='red',
     fill_opacity=0.5,
     number_of_sides=6,  # Hexágono
-    radius=140,  # Radio del hexágono en metros
+    radius=110,  # Radio del hexágono en metros
     
     tooltip='Celda Cobertura Sede Floridablanca'
 
@@ -153,7 +153,7 @@ folium.Circle(
     fill_color='red',
     fill_opacity=0.5,
     number_of_sides=6,  # Hexágono
-    radius=185,  # Radio del hexágono en metros
+    radius=150,  # Radio del hexágono en metros
     
     tooltip='Celda Cobertura Sede Piedecuesta'
 ).add_to(m)
@@ -162,7 +162,7 @@ folium.Circle(
     fill_color='red',
     fill_opacity=0.5,
     number_of_sides=6,  # Hexágono
-    radius=100,  # Radio del hexágono en metros
+    radius=80,  # Radio del hexágono en metros
     
     tooltip='Celda Cobertura Sede Limonal'
 ).add_to(m)
