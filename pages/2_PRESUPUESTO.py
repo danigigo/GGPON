@@ -33,7 +33,7 @@ data = {
         " DISTRIBUIDOR INTERNO ÓPTICO BT72 de fukurawa",
         "TOTAL(Se modifica dependiento de cuantas ONTs(routers) se van a usar en cada sede)"
     ],
-    "Precio (USD)": ['1200$ x 4', '88$ x 4', '1330$', '12$', '23$', '45$', '850$ x 4','6962$']
+    "Precio (USD)": ['1500$ x 4', '88$ x 4', '600 x 25$', '12$', '23$', '45$', '850$ x 4','24832$']
 }   
 
 # Crear un DataFrame de pandas con los datos
