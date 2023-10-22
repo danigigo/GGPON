@@ -22,7 +22,7 @@ st.markdown("""<p style='text-align: justify;'>En el siempre cambiante panorama 
 # :red[""]
 
 
-image = Image.open('agro.jpg')
+image = Image.open('agroo.jpg')
 
 st.image(image)
 
