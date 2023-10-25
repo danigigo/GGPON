@@ -24,7 +24,18 @@ st.markdown("""<p style='text-align: justify;'>Durante el desarrolo de este proy
 
 # OLT (Optical Line Terminal)
 st.markdown('<h3 style="color:green">ESTACION METEOROOGICA y weather shield SPARKFUN</h3>', unsafe_allow_html=True)
-st.write(" El Weather Shield de SparkFun es un accesorio diseñado para placas Arduino que proporciona una solución compacta para medir y monitorear diversas condiciones meteorológicas. Este shield está equipado con sensores que permiten medir la temperatura, la humedad relativa, la presión atmosférica y la velocidad y dirección del viento. Estos datos son útiles para crear estaciones meteorológicas personales, proyectos de IoT relacionados con el clima, o para monitorear y registrar las condiciones ambientales en tiempo real.El Weather Shield incluye sensores como el BMP180 para la presión atmosférica, el HTU21D para la temperatura y la humedad, y un sensor de anemómetro y veleta para medir la velocidad y dirección del viento. La información capturada por estos sensores se puede utilizar para realizar pronósticos del tiempo, estudios climáticos y más. Es una herramienta versátil para proyectos relacionados con la meteorología y el monitoreo ambiental.")
+
+st.markdown("""<p style='text-align: justify;'><br>El Weather Shield de SparkFun es un accesorio diseñado para placas Arduino que proporciona una solución compacta para medir y
+         monitorear diversas condiciones meteorológicas. Este shield está equipado con sensores que permiten medir la temperatura, 
+         la humedad relativa, la presión atmosférica y la velocidad y dirección del viento. Estos datos son útiles para crear estaciones 
+         meteorológicas personales, proyectos de IoT relacionados con el clima, o para monitorear y registrar las condiciones ambientales 
+         en tiempo real.El Weather Shield incluye sensores como el BMP180 para la presión atmosférica, el HTU21D para la temperatura y la 
+         humedad, y un sensor de anemómetro y veleta para medir la velocidad y dirección del viento. La información capturada por estos 
+         sensores se puede utilizar para realizar pronósticos del tiempo, estudios climáticos y más. Es una herramienta versátil para proyectos
+         relacionados con la meteorología y el monitoreo ambiental.</br></p>""",unsafe_allow_html=True)
+            
+
+         
 image3 = Image.open('esta.jpg')
 st.image(image3)
 image4 = Image.open('siono.jpg')
