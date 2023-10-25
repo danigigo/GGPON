@@ -32,7 +32,7 @@ st.markdown("""<p style='text-align: justify;'><br>El Weather Shield de SparkFun
          en tiempo real.El Weather Shield incluye sensores como el BMP180 para la presión atmosférica, el HTU21D para la temperatura y la 
          humedad, y un sensor de anemómetro y veleta para medir la velocidad y dirección del viento. La información capturada por estos 
          sensores se puede utilizar para realizar pronósticos del tiempo, estudios climáticos y más. Es una herramienta versátil para proyectos
-         relacionados con la meteorología y el monitoreo ambiental.</br></p>""",unsafe_allow_html=True)
+         relacionados con la meteorología y el monitoreo ambiental.</br><br></br></p>""",unsafe_allow_html=True)
             
 
          
@@ -42,7 +42,17 @@ image4 = Image.open('siono.jpg')
 st.image(image4)
 
 st.markdown('<h3 style="color:green">ANTENA DE INTERNET SATELITAL Y MODEN DE STARLINK) ):</h3>', unsafe_allow_html=True)
-st.write("El internet satelital de Starlink utiliza una antena parabólica de 23 pulgadas para recibir señales de una constelación de satélites de órbita terrestre baja. La antena está conectada a un módem que convierte las señales satelitales en una conexión Wi-Fi.La antena parabólica es el componente más importante del sistema Starlink. Está diseñada para apuntar al cielo y recibir señales de los satélites. La antena está equipada con un motor que la mantiene apuntando en la dirección correcta, incluso si el cielo está nublado o hay obstáculos en el camino.El módem es el componente que convierte las señales satelitales en una conexión Wi-Fi. El módem está conectado a la antena parabólica y a un router Wi-Fi. El router Wi-Fi distribuye la conexión a otros dispositivos en la casa.Starlink ofrece velocidades de descarga de hasta 200 Mbps y velocidades de subida de hasta 10 Mbps. El servicio está disponible en zonas rurales y urbanas de todo el mundo.En resumen, el internet satelital de Starlink utiliza una antena parabólica y un módem para proporcionar una conexión a Internet de alta velocidad a zonas rurales y urbanas de todo el mundo.")
+
+st.markdown("""<p style='text-align: justify;'><br>El internet satelital de Starlink utiliza una antena parabólica de 23 pulgadas para recibir
+            señales de una constelación de satélites de órbita terrestre baja. La antena está conectada a un módem que convierte las señales satelitales en una conexión
+         Wi-Fi.La antena parabólica es el componente más importante del sistema Starlink. Está diseñada para apuntar al cielo y recibir
+         señales de los satélites. La antena está equipada con un motor que la mantiene apuntando en la dirección correcta, incluso si 
+         el cielo está nublado o hay obstáculos en el camino.El módem es el componente que convierte las señales satelitales en una conexión
+         Wi-Fi. El módem está conectado a la antena parabólica y a un router Wi-Fi. El router Wi-Fi distribuye la conexión a otros dispositivos
+         en la casa.Starlink ofrece velocidades de descarga de hasta 200 Mbps y velocidades de subida de hasta 10 Mbps. El servicio está
+         disponible en zonas rurales y urbanas de todo el mundo.En resumen, el internet satelital de Starlink utiliza una antena parabólica y 
+         un módem para proporcionar una conexión a Internet de alta velocidad a zonas rurales y urbanas de todo el mundo.</br><br></br></p>""",unsafe_allow_html=True)
+         
 
 image9 = Image.open('star.jpg')
 st.image(image9)
