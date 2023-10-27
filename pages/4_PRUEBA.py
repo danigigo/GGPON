@@ -8,7 +8,7 @@ st.title("Lectura y Gráficos de Google Sheets")
 st.write("Esta aplicación lee datos de una hoja de cálculo de Google Sheets y crea gráficos.")
 
 # Conecta a Google Sheets
-gc = gspread.service_account(filename='credentials.json')  # Reemplaza con la ruta de tu archivo JSON de credenciales
+gc = gspread.service_account(filename='credentialss.json')  # Reemplaza con la ruta de tu archivo JSON de credenciales
 
 # Abre la hoja de cálculo por su URL
 sheet_url = "https://docs.google.com/spreadsheets/d/1i6VkbBiR1ePNrWr8zEnw7DDnYEyTUfRrvBty_pJylvM/edit#gid=0"  # Reemplaza con la URL de tu hoja de cálculo
@@ -26,11 +26,16 @@ df = pd.DataFrame(data[1:], columns=data[0])
 st.write("Datos en Google Sheets:")
 st.write(df)
 
-# Crea un gráfico (puedes usar Matplotlib o Plotly)
-st.subheader("Gráfico de ejemplo")
+df['cont'] = df['cont']
+df['velocidad'] = df['velocidad'].astype(float)
+
+df_first_20 = df.iloc[-20:]
+
+
+# Crea un gráfico de dispersión Tiempo vs. Velocidad
+st.subheader("Gráfico de Tiempo vs. Velocidad")
 plt.figure(figsize=(8, 6))
-plt.bar(df['Categoría'], df['Valor'])
+plt.scatter(df_first_20['direccion'], df_first_20['velocidad'])
+plt.xlabel("Tiempo")
+plt.ylabel("Velocidad")
 st.pyplot(plt)
-
-# Puedes agregar más gráficos y análisis de datos aquí
-
